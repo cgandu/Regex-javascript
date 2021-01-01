@@ -1,0 +1,32 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>280</x><y>20</y><w>210</w><h>190</h></coordinates><panel_attributes>Concesionario
+--
+
+_-textoDeLaConsigna: string_
+--
+
+/+getDatos()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>260</y><w>210</w><h>200</h></coordinates><panel_attributes>Vehiculo
+--
+
+-id: Long
+-propsMap: Object
+--
+
+/+getDetallesVehiculo()/
+/+getNombreVehiculo()/
+/+getPrecioVehiculo()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>260</y><w>210</w><h>190</h></coordinates><panel_attributes>
+Usuario
+--
+
+-id: Long
+--
+
+/+getListaVehiculosOrdenada()/
+/+imprimirListaOriginal()/
+/+imprimirListaOriginalOrdenada()/
+/+imprimirVehiculoMasBarato()/
+/+imprimirVehiculoMasCaro()/
+/+imprimirVehiculoBuscado()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>100</y><w>100</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10;80;160</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>310</y><w>250</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>230;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>110</y><w>230</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>210;10;10;10;10;150</additional_attributes></element><element><id>Text</id><coordinates><x>260</x><y>90</y><w>20</w><h>20</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>80</x><y>240</y><w>30</w><h>20</h></coordinates><panel_attributes>0...*</panel_attributes><additional_attributes></additional_attributes></element></diagram>
